@@ -5,7 +5,7 @@ output "workspace_url" {
 
 output "workspace_id" {
   description = "The ID of the workspace"
-  value       = databricks_mws_workspaces.this.id
+  value       = databricks_mws_workspaces.this.workspace_id
 }
 
 output "workspace" {
